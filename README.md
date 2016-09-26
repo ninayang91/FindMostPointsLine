@@ -5,7 +5,8 @@
 
     for(j=i+1-length){
 
-         line l=(i,j);
+         line l=(i,j); 
+         insert l into hashMap
 
          countEquivLines(hashMap,l);
 
